@@ -1,0 +1,1 @@
+exiftool "-AllDates<FileCreateDate" C:\Users\Desktop\Desktop\github\file_date_restore\_out

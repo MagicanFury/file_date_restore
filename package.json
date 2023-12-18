@@ -1,0 +1,25 @@
+{
+  "name": "file_date_restore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node --transpile-only --project ./tsconfig.json ./src/entry.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/exif": "^0.6.5",
+    "exif": "^0.6.0",
+    "nodemon": "^3.0.2",
+    "piexifjs": "^1.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "utimes": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
+}
